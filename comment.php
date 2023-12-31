@@ -284,13 +284,18 @@ $numComments = $sqlNumComments->num_rows;
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-
+<div class="row21">
+    <div class="col-md-12" align="right">
+        <a href="about.php" class="btn btn-primary1" >Go Back</a>
+    </div>
+</div>
 
 <div class="modal" id="logInModal">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title">Log In Form</h5>
+                
             </div>
             <div class="modal-body">
                 <input type="email" id="userLEmail" class="form-control" placeholder="Your Email">
@@ -298,6 +303,7 @@ $numComments = $sqlNumComments->num_rows;
             </div>
             <div class="modal-footer">
                 <button class="btn btn-primary" id="loginBtn">Log In</button>
+
                 <button class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
         </div>
@@ -325,15 +331,15 @@ $numComments = $sqlNumComments->num_rows;
     <div class="carousel-inner">
         <!-- Image 1 -->
         <div class="carousel-item active">
-            <img src="team1.jpg" class="d-block w-70" alt="Image 1">
+            <img src="team1.jpg" class="d-block w-70 img-fluid" alt="Image 1">
         </div>
         <!-- Image 2 -->
         <div class="carousel-item">
-            <img src="team2.jpg" class="d-block w-70" alt="Image 2">
+            <img src="team2.jpg" class="d-block w-70 img-fluid" alt="Image 2">
         </div>
         <!-- Image 3 -->
         <div class="carousel-item">
-            <img src="team4.jpg" class="d-block w-70" alt="Image 3">
+            <img src="team4.jpg" class="d-block w-70 img-fluid" alt="Image 3">
         </div>
     </div>
 

@@ -7,11 +7,12 @@ body {
     font-family: 'Helvetica Neue', sans-serif; /* Use a modern and clean font */
   }
   
-  
+
   
   @media (max-width: 768px) {
     .users-container {
         width: 100%;
+        max-width: 100%;
     }
   }
   .online-circle{
