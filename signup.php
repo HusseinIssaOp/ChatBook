@@ -1,8 +1,7 @@
-<?php require("inc/head.php"); ?>
 
 <?php 
-
 session_start();
+require("inc/head.php");
 
 if(isset($_COOKIE['user_id']) || isset($_COOKIE['user_email']) || isset($_SESSION['user_id']) || isset($_SESSION['email'])){
     header("location: ./index.php");
